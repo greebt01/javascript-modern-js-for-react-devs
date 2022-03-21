@@ -4,10 +4,10 @@
 // 
 
 import Cat from "./Cat.mjs";
+import Dog from "./Dog.mjs";
 import Person from "./Person.mjs";
 
 const test = () => {
-
     let p1 = new Person('Joe'); // Instaniate a Person.
     p1.introduceSelf();
 
@@ -22,8 +22,13 @@ const test = () => {
     console.log(`The name of my cat is: ${p1.getCatName()}.`);
 }
 
+const inheritence = () => {
+    let d1 = Dog();
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-test();
+// test();
+inheritence();
