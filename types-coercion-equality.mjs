@@ -45,17 +45,18 @@ const typesReference = () => {
     // Reference types point to objects (Heap).
 
     // Array
-    let messyArray = [1, 2, 3, 'test', 1.234, null, "test"];
+    const messyArray = [1, 2, 3, 'test', 1.234, null, "test"];
     console.log(messyArray);
     console.log(typeof(messyArray));
     console.log(typeof(messyArray[3])); // Arrays are zero based. 
 
     // Dictionary
-    let dictionary = {};
+    const dictionary = {}; 
     dictionary[1] = 'one';
     dictionary[2] = 'two';
-    dictionary[3] = 'three';
+    dictionary[3] = 'three'; // <== We can add items to a const dictionary and array.
     console.log(dictionary);
+    console.log(dictionary[2]);
     console.log(typeof(dictionary));
 
     // Class
@@ -65,13 +66,59 @@ const typesReference = () => {
 }
 
 const coercion = () => {
-    
+    // AKA: casting
+    const a = "1";
+    const b = 2;
+    let result = a + b; // <== JavaScript coerced (casted) the number to a string.
+    console.log(typeof(a));
+    console.log(typeof(b));
+    console.log(typeof(result));
+    console.log(result);
 }
 
 const equality = () => {
-    // Equality works differently for primative types & reference types
+    //
+    // Equality is SUPER IMPORTANT when working with State and React components.
+    //
 
+    let a = 1;
+    let b = 2;
 
+    // ProTip: In general, use the triple equals.
+    if (a == b) { // Double equals: JavaScript will coerce the types, hopefully it's the right type!
+        console.log('equal');
+    }
+
+    if (a === b) { // Three equals: Compare without having JavaScript automatically coerce the items.
+        console.log('equal');
+    }
+
+    // 
+    // React use reference equality to detect change.
+    //
+
+    let p1 = new Person('Joe');
+    let p2 = new Person('Joe');
+    let p3 = p2;
+
+    if (p1 === p2) {
+        console.log('Here')
+    }
+
+    if (p2 === p3) {
+        console.log('HERE!!!')
+    }
+
+    //
+    // Future thoughts...
+    //
+
+    // React does not consider this to be a change because c still points to the 
+    // head of the array.  In order for React to detect this change a new
+    // array must be built.
+    let c = [1,2,3];
+    c.push(4); 
+    let d = [...c]; // Must do somethign like this (spread operator).
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -80,6 +127,6 @@ const equality = () => {
 
 //types();
 //typesPrimative();
-typesReference();
-// coercion();
-// equality();
+//typesReference();
+//coercion();
+equality();
