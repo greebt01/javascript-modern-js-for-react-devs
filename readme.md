@@ -6,9 +6,10 @@
 
 # Topics
 
-|Subject                    |Script                           |
-|---------------------------|---------------------------------|
+|Subject                    |Script                            |
+|---------------------------|----------------------------------|
 |Variables & Block Scopes   |`node variables-block-scope.mjs`  |
+|Types & Coercion & Equality|`node types-coercion-equality.mjs`|
 |Types & Coercion & Equality|`node types-coercion-equality.mjs`|
 
 # Notes
