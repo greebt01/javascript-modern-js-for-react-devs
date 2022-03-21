@@ -59,6 +59,9 @@ const typesReference = () => {
     console.log(dictionary[2]);
     console.log(typeof(dictionary));
 
+    // Set
+    // TODO: Set.
+
     // Class
     let mary = new Person('Mary');
     mary.introduceSelf();

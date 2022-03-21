@@ -44,7 +44,9 @@ const map = () => {
 }
 
 const sort = () => {
-    
+    let n = [3, 1, 5, 2, 4];
+    n.sort((a, b) => { (a < b) ? 1: 0});
+    console.log(n);
 }
 
 const filter = () => {
