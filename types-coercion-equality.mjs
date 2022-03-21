@@ -113,7 +113,7 @@ const equality = () => {
     // React does not consider this (below) to be a change because c 
     // points to the  head of the array.  In order for React to detect this 
     // change a new array must be built.
-    
+
     let c = [1,2,3];
     c.push(4); 
     c = [...c]; // Must do something like this (spread operator).
@@ -123,8 +123,8 @@ const equality = () => {
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-//types();
+types();
 //typesPrimative();
 //typesReference();
 //coercion();
-equality();
+//equality();
