@@ -3,6 +3,8 @@
 // Date: 3/21/2022
 //
 
+import { Person } from './Person.js'
+
 const types = () => {
     // (null, undefined, boolean, number, string, symbol, and BigInt)
     let b = false; // JavaScript infers the type for us: boolean.
@@ -57,7 +59,8 @@ const typesReference = () => {
     console.log(typeof(dictionary));
 
     // 
-
+    let p = new Person();
+    
 }
 
 const coercion = () => {
