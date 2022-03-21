@@ -44,7 +44,8 @@ const newFunc4 = (a, b) => {
         return a + b;
     }
 
-    return add(a,b);
+    let result = add(a, b);
+    return result;
 }
 
 //////////////////////////////////////////////////////////////////////////
