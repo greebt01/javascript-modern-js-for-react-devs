@@ -12,6 +12,7 @@
 |Types & Coercion & Equality|`node types-coercion-equality.mjs`|
 |Arrow Functions            |`node arrow-functions.mjs`        |
 |Destructuring & Spread     |`node destructuring-spread.mjs`   |
+|Classes                    |`node classes.mjs`                |
 
 
 # Notes
