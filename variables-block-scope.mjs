@@ -18,6 +18,7 @@ const constants = () => {
 
     num1 = 55; // Error!  Cannot change a constant.
 
+    // ProTip: Always favor const over let.
     console.log(num1, num2);
 }
 
