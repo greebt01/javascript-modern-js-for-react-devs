@@ -19,7 +19,7 @@ they start creating React components.
 |Functional Programming     |`node functional-programming.mjs` |
 
 # DOM
--[JavaScript DOM Crash Course - Part 1 (40 min)](https://youtu.be/0ik6X4DJKCc)
+- [JavaScript DOM Crash Course - Part 1 (40 min)](https://youtu.be/0ik6X4DJKCc)
   - JavaScript can be use to manipulate the DOM, but in general we don't need to do this in our React apps
   - React manipulates the real DOM based on the changes to React's virtual DOM
 
