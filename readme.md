@@ -23,6 +23,11 @@ they start creating React components.
   - JavaScript can be use to manipulate the DOM, but in general we don't need to do this in our React apps
   - React manipulates the real DOM based on the changes to React's virtual DOM
 
+# Developing Apps for the Browser
+- The modern web browser is a highly sophisticated tool for rendering web pages and executing JavaScript
+- [Google Dev Tools (30 min)](https://youtu.be/VYyQv0CSZOE)
+- [JavaScript Cookies vs Local Storage vs Session](https://youtu.be/GihQAC1I39Q)
+
 # Notes
 - Functions are first class citizens in JavaScript
 - JavaScript has [two types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures): 
