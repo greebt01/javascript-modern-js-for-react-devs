@@ -6,8 +6,7 @@
 import Cat from "./Cat.mjs";
 import Person from "./Person.mjs";
 
-
-const foo = () => {
+const test = () => {
 
     let p1 = new Person('Joe');
     p1.introduceSelf();
@@ -15,13 +14,13 @@ const foo = () => {
     let c1 = new Cat("Gypsy");
     // let c2 = new Cat("Gypsy", "black"); // Constructor overloading is not supported in JavaScript.
     //console.log(c1.age) // Private!  Returns undefined.
-    
-    console.log(c1.speak2());
 
+    console.log(c1.speak2());
+    console.log(c1.speak3());
 }
 
 //////////////////////////////////////////////////////////////////////////
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-foo();
+test();
