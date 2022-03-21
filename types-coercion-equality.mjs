@@ -3,7 +3,7 @@
 // Date: 3/21/2022
 //
 
-import { Person } from './Person.js'
+import Person from './Person.mjs'
 
 const types = () => {
     // (null, undefined, boolean, number, string, symbol, and BigInt)
@@ -59,8 +59,8 @@ const typesReference = () => {
     console.log(typeof(dictionary));
 
     // 
-    let p = new Person();
-    
+    let mary = new Person('Mary');
+    mary.introduceSelf();
 }
 
 const coercion = () => {

@@ -8,8 +8,8 @@
 
 |Subject                    |Script                           |
 |---------------------------|---------------------------------|
-|Variables & Block Scopes   |`node variables-block-scope.js`  |
-|Types & Coercion & Equality|`node types-coercion-equality.js`|
+|Variables & Block Scopes   |`node variables-block-scope.mjs`  |
+|Types & Coercion & Equality|`node types-coercion-equality.mjs`|
 
 # Notes
 - Functions are first class citizens in JavaScript
