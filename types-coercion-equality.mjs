@@ -58,9 +58,10 @@ const typesReference = () => {
     console.log(dictionary);
     console.log(typeof(dictionary));
 
-    // 
+    // Class
     let mary = new Person('Mary');
     mary.introduceSelf();
+    console.log(typeof(mary));
 }
 
 const coercion = () => {
