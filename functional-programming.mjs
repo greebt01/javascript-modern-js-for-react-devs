@@ -24,7 +24,7 @@ const map = () => {
     const p2 = { firstName: "Jane"};
     const p3 = { firstName: "Sally"};
     const personList = [p1, p2, p3];
-    
+
     const htmlTableStart = "<table><tr>";
     const htmlTableEnd = "</tr></table>";
 
@@ -44,7 +44,7 @@ const map = () => {
 }
 
 const sort = () => {
-
+    
 }
 
 const filter = () => {
@@ -59,7 +59,7 @@ const find = () => {
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-map();
+// map();
 sort();
 filter();
 find();
