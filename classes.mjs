@@ -3,9 +3,9 @@
 // Date: 3/21/2022
 // 
 
-import Cat from "./Cat.mjs";
-import Dog from "./Dog.mjs";
-import Person from "./Person.mjs";
+import Cat from "./classes/Cat.mjs";
+import Dog from "./classes/Dog.mjs";
+import Person from "./classes/Person.mjs";
 
 const test = () => {
     let p1 = new Person('Joe'); // Instaniate a Person.
@@ -23,7 +23,9 @@ const test = () => {
 }
 
 const inheritence = () => {
-    let d1 = Dog();
+    let d1 = new Dog(5);
+    d1.speakAge();
+    d1.bark();
 }
 
 //////////////////////////////////////////////////////////////////////////

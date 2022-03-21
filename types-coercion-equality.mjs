@@ -3,7 +3,7 @@
 // Date: 3/21/2022
 //
 
-import Person from './Person.mjs'
+import Person from './classes/Person.mjs'
 
 const types = () => {
     // (null, undefined, boolean, number, string, symbol, and BigInt)
