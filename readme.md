@@ -3,6 +3,8 @@
 # Getting Started 
 - Clone this repo
 
-# Notes
+# Topics
 
-
+|Subject                 |Script                         |
+|------------------------|-------------------------------|
+|Variables & Block Scopes|`node variables-block-scope.js`|
