@@ -85,17 +85,13 @@ const equality = () => {
     let b = 2;
 
     // ProTip: In general, use the triple equals.
-    if (a == b) { // Double equals: JavaScript will coerce the types, hopefully it's the right type!
+    if (a == b) { // Double equals: JavaScript will coerce the types, hopefully its the right type for you!
         console.log('equal');
     }
 
     if (a === b) { // Three equals: Compare without having JavaScript automatically coerce the items.
         console.log('equal');
     }
-
-    // 
-    // React use reference equality to detect change.
-    //
 
     let p1 = new Person('Joe');
     let p2 = new Person('Joe');
@@ -113,12 +109,14 @@ const equality = () => {
     // Future thoughts...
     //
 
-    // React does not consider this to be a change because c still points to the 
-    // head of the array.  In order for React to detect this change a new
-    // array must be built.
+    // *** React use reference equality to detect changes in State ***
+    // React does not consider this (below) to be a change because c 
+    // points to the  head of the array.  In order for React to detect this 
+    // change a new array must be built.
+    
     let c = [1,2,3];
     c.push(4); 
-    let d = [...c]; // Must do somethign like this (spread operator).
+    c = [...c]; // Must do something like this (spread operator).
 }
 
 //////////////////////////////////////////////////////////////////////////
