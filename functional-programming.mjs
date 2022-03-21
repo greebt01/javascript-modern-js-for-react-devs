@@ -11,23 +11,36 @@ const map = () => {
     console.log(b)
 
     // c is an array that contians dictionary objects.
+    // Maps are useful for transforming collections into something we desire.
     let c = a.map(i => {
         return {doubleNumber: (i * 2)};
     });
     console.log(c);
 
-    // Maps are useful for transforming collections into something we desire. 
-    // *** In React, maps are the FUNDAMENTAL way in which we display a 
-    // collection of data. ***
+    // IMPORTANT!
+    // In React, maps are the FUNDAMENTAL way in which we display a 
+    // collection of data to the user.
+    const p1 = { firstName: "Marty"};
+    const p2 = { firstName: "Jane"};
+    const p3 = { firstName: "Sally"};
+    const personList = [p1, p2, p3];
+    
+    const htmlTableStart = "<table><tr>";
+    const htmlTableEnd = "</tr></table>";
 
-    let p1 = { firstName: "Marty"};
-    let p2 = { firstName: "Jane"};
-    let p3 = { firstName: "Sally"};
+    let htmlTd = personList.map(p => { // This will be in our JSX expression (React).
+        return (`<td>${p.firstName}</td>`);
+    })
 
-    let a = [p1, p2, p3];
-
-    console.log(a)
-
+    const htmlTable = htmlTableStart + htmlTd.join('') + htmlTableEnd;
+    console.log(htmlTable);
+    // <table>
+    //    <tr>
+    //      <td>Marty</td>
+    //      <td>Jane</td>
+    //      <td>Sally</td>
+    //    </tr>
+    // </table>
 }
 
 const sort = () => {
@@ -46,7 +59,7 @@ const find = () => {
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-// map();
+map();
 sort();
 filter();
 find();
