@@ -10,12 +10,12 @@ they start creating React components.
 |Subject                    |Script                            |
 |---------------------------|----------------------------------|
 |Variables & Block Scope    |`node variables-block-scope.mjs`  |
+|Loops & Operators          |`node loops-operators.mjs`        |
 |Types & Coercion & Equality|`node types-coercion-equality.mjs`|
 |Arrow Functions            |`node arrow-functions.mjs`        |
 |Destructuring & Spread     |`node destructuring-spread.mjs`   |
 |Classes                    |`node classes.mjs`                |
 |Promises/Async             |`node promises-async-await.mjs`   |
-|Loops & Operators          |`node loops-operators.mjs`        |
 |Functional Programming     |`node functional-programming.mjs` |
 
 # DOM
