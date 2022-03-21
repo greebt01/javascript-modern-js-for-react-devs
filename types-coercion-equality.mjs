@@ -101,7 +101,7 @@ const equality = () => {
         console.log('Here')
     }
 
-    if (p2 === p3) {
+    if (p2 === p3) {  // We can also do: !==
         console.log('HERE!!!')
     }
 

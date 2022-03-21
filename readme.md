@@ -14,7 +14,7 @@
 |Destructuring & Spread     |`node destructuring-spread.mjs`   |
 |Classes                    |`node classes.mjs`                |
 |Promises/Async             |`node promises-async-await.mjs`   |
-
+|Promises/Async             |`node promises-async-await.mjs`   |
 
 # Notes
 - Functions are first class citizens in JavaScript
