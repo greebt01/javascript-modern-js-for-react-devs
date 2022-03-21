@@ -19,6 +19,15 @@ const map = () => {
     // Maps are useful for transforming collections into something we desire. 
     // *** In React, maps are the FUNDAMENTAL way in which we display a 
     // collection of data. ***
+
+    let p1 = { firstName: "Marty"};
+    let p2 = { firstName: "Jane"};
+    let p3 = { firstName: "Sally"};
+
+    let a = [p1, p2, p3];
+
+    console.log(a)
+
 }
 
 const sort = () => {
