@@ -1,14 +1,15 @@
 # Modern JavaScript for React Developers
+The purpose of this repo is to give students a JavaScript primer before
+they start creating React components.
 
 # Getting Started 
 - Install NodeJs (only once)
 - Clone this repo
 
 # Topics
-
 |Subject                    |Script                            |
 |---------------------------|----------------------------------|
-|Variables & Block Scopes   |`node variables-block-scope.mjs`  |
+|Variables & Block Scope    |`node variables-block-scope.mjs`  |
 |Types & Coercion & Equality|`node types-coercion-equality.mjs`|
 |Arrow Functions            |`node arrow-functions.mjs`        |
 |Destructuring & Spread     |`node destructuring-spread.mjs`   |
@@ -16,6 +17,11 @@
 |Promises/Async             |`node promises-async-await.mjs`   |
 |Loops & Operators          |`node loops-operators.mjs`        |
 |Functional Programming     |`node functional-programming.mjs` |
+
+# DOM
+-[JavaScript DOM Crash Course - Part 1 (40 min)](https://youtu.be/0ik6X4DJKCc)
+  - JavaScript can be use to manipulate the DOM, but in general we don't need to do this in our React apps
+  - React manipulates the real DOM based on the changes to React's virtual DOM
 
 # Notes
 - Functions are first class citizens in JavaScript
