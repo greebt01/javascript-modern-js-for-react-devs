@@ -10,7 +10,7 @@
 |---------------------------|----------------------------------|
 |Variables & Block Scopes   |`node variables-block-scope.mjs`  |
 |Types & Coercion & Equality|`node types-coercion-equality.mjs`|
-|Types & Coercion & Equality|`node types-coercion-equality.mjs`|
+|Types & Coercion & Equality|`node arrow-functions.mjs`|
 
 # Notes
 - Functions are first class citizens in JavaScript
