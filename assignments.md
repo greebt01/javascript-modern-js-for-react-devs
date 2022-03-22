@@ -58,7 +58,7 @@ this appears: 3 times.
 ```
 
 ## Ex. 4
-Write a function named: `longestString` that returns the longest string from an array of strings:
+Write an arrow function named: `longestString` that returns the longest string from an array of strings:
 
 Usage:
 ```
@@ -72,7 +72,7 @@ happy
 ```
 
 ## Ex. 5
-Write a function named: `palindrome` that returns a boolean if a string is a palindrome:
+Write an arrow function named: `palindrome` that returns a boolean if a string is a palindrome:
 
 Example usage:
 ```
@@ -87,7 +87,7 @@ false
 
 ## Ex. 6
 
-Write a function named: `sort` that sorts an array of numbers in ascending order:
+Write an arrow function named: `sort` that sorts an array of numbers in ascending order:
 
 Example usage:
 ```
@@ -101,7 +101,7 @@ Output:
 
 ## Ex. 7
 
-Write a function named: `countWords` that counts the number of words for this string:
+Write an arrow function named: `countWords` that counts the number of words for this string:
 
 ```
 let words = "Count the words in this string";
@@ -113,7 +113,7 @@ Output:
 ```
 
 ## Ex. 8
-Write a function named: `countS` that counts the number of words that end in "s":
+Write am arrow function named: `countS` that counts the number of words that end in "s":
 
 Usage:
 ```
@@ -127,7 +127,7 @@ Output:
 ```
 
 ## Ex. 9
-Write a function named: `countLetters` that counts the number of letters for an array of words:
+Write an arrow function named: `countLetters` that counts the number of letters for an array of words:
 
 Usage:
 ```
@@ -143,7 +143,7 @@ Output:
 Bonus points for using `map` and `reduce`.
 
 ## Ex. 10
-Write a function named: `numberOnly` that counts the number of numbers in an array:
+Write an arrow function named: `numberOnly` that counts the number of numbers in an array:
 
 
 Usage:
@@ -156,3 +156,8 @@ Output:
 ```
 [ 3, 7, 13 ]
 ```
+
+
+## Ex. 11 Classes
+
+
