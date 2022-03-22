@@ -6,7 +6,7 @@ and all the object are formatted exactly the same.  This is easier to say than i
 # OOP Definitions for JavaScript
 OOP with JavaScript is not very mature, but its getting better.  Languages such as Java, C# and C++ implement object oriented concepts more throughly than than JavaScript.
 
-- Classes: A cookie cutter template that is used to create more instances of itself
+- Classes: A template (blueprint) that is used to create more instances of itself
 - Constructor: A special method that is used to initialize and setup a class for use when the class is instaniated
 - Inheritence: Extends the functionality of an object
 - Access modifiers: Allow us to restrict access of behavior and logic for a class.
