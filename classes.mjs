@@ -24,7 +24,7 @@ const test = () => {
 }
 
 const inheritence = () => {
-    const d1 = new Dog(5);
+    const d1 = new Dog(5); // Dog extends (inherits) the Animal class.  What do we get for free?
     d1.speakAge();
     d1.bark();
 
