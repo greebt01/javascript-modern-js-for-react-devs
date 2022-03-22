@@ -103,6 +103,9 @@ let ex10 = () => {
 let ex11 = () => {
     const c = new Calculator();
     c.add(1,2);
+    c.sub(4,1);
+    c.div(10,2);
+    c.mul(2,2)
     console.log(c.getHistory())
 }
 

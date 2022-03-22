@@ -7,7 +7,6 @@
 
 export default class Calculator {
 
-    
     ///////////////////////////////////////////////////////////////////////////
     // Data members (fields or properties)
     ///////////////////////////////////////////////////////////////////////////
@@ -19,7 +18,7 @@ export default class Calculator {
     ///////////////////////////////////////////////////////////////////////////
   
     constructor () {
-        historyList = [];
+        this.#historyList = [];
     }
   
     ///////////////////////////////////////////////////////////////////////////
@@ -32,8 +31,26 @@ export default class Calculator {
         return retval;
     }
 
+    sub(a, b) {
+        const retval = a - b;
+        this.#historyList.push(`Sub: ${a} - ${b} = ${retval}`);
+        return retval;
+    }
+
+    mul(a, b) {
+        const retval = a * b;
+        this.#historyList.push(`Mul: ${a} * ${b} = ${retval}`);
+        return retval;
+    }
+
+    div(a, b) {
+        const retval = a / b;
+        this.#historyList.push(`Div: ${a} / ${b} = ${retval}`);
+        return retval;
+    }
+
     getHistory() {
-        return this.#historyList
+        return this.#historyList.join('\r\n');
     }
 
 }

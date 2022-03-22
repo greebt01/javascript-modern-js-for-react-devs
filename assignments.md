@@ -145,7 +145,6 @@ Bonus points for using `map` and `reduce`.
 ## Ex. 10
 Write an arrow function named: `numberOnly` that counts the number of numbers in an array:
 
-
 Usage:
 ```
 let arr = ['dog', 3, 7, 'cat', 13, 'car'];
@@ -157,7 +156,26 @@ Output:
 [ 3, 7, 13 ]
 ```
 
+## Ex. 11 History Calculator
+Create a `Calculator` class that performs simple math operations and prints the results
+of all the calculations to the console.
 
-## Ex. 11 Classes
+Usage:
+```
+const c = new Calculator();
+c.add(1,2);
+c.sub(4,1);
+c.div(10,2);
+c.mul(2,2)
+console.log(c.getHistory())
+```
+
+Output:
+```
+Add: 1 + 2 = 3
+Sub: 4 - 1 = 3
+Div: 10 / 2 = 5
+Mul: 2 * 2 = 4
+```
 
 
