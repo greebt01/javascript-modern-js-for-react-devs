@@ -7,16 +7,18 @@ they start creating React components.
 - Clone this repo
 
 # Topics
-|Subject                    |Script                            |
-|---------------------------|----------------------------------|
-|Variables & Block Scope    |`node variables-block-scope.mjs`  |
-|Loops & Operators          |`node loops-operators.mjs`        |
-|Types & Coercion & Equality|`node types-coercion-equality.mjs`|
-|Arrow Functions            |`node arrow-functions.mjs`        |
-|Destructuring & Spread     |`node destructuring-spread.mjs`   |
-|Classes                    |`node classes.mjs`                |
-|Promises/Async             |`node promises-async-await.mjs`   |
-|Functional Programming     |`node functional-programming.mjs` |
+|Subject                                                    |Script                            |
+|-----------------------------------------------------------|----------------------------------|
+|[Variables & Block Scope](variables-block-scope.mjs)       |`node variables-block-scope.mjs`  |
+|[Loops & Operators](loops-operators.mjs)                   |`node loops-operators.mjs`        |
+|[Types & Coercion & Equality](types-coercion-equality.mjs) |`node types-coercion-equality.mjs`|
+|[Arrow Functions](arrow-functions.mjs)                     |`node arrow-functions.mjs`        |
+|[Destructuring & Spread](destructuring-spread.mjs)         |`node destructuring-spread.mjs`   |
+|[Classes](classes.mjs)                                     |`node classes.mjs`                |
+|[Promises/Async](promises-async-await.mjs)                 |`node promises-async-await.mjs`   |
+|[Functional Programming](functional-programming)           |`node functional-programming.mjs` |
+
+- [JavaScript Quick Reference](javascript-reference.md)
 
 # DOM
 - [JavaScript DOM Crash Course - Part 1 (40 min)](https://youtu.be/0ik6X4DJKCc)
