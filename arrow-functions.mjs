@@ -3,17 +3,20 @@
 // Date: 3/21/2022
 //
 
-function oldFunc1() { // <== Don't get used to this format.
+function oldFunc1() { // <== Do not use.
     console.log("I am old.");
 }
 
-const newFunc1 = () => {
+const newFunc1 = () => { // <== Anonymous function.
     console.log("I am new.")
+
+    // This is a function: () => {}
+    // This is not a function anymore: foo() {}
 }
 
 //
 
-function oldFunc2(name) { // <== Don't get used to this format.
+function oldFunc2(name) { // <== Do not use.
     console.log(`My name is ${name}.`);
 }
 
@@ -21,9 +24,13 @@ const newFunc2 = (name) => {
     console.log(`My name is ${name}.`)
 }
 
+const newFunc2Again = name => { // <== Parens not required for one arguement.
+    console.log(`My name is ${name}.`)
+}
+
 //
 
-function oldFunc3(name) { // <== Don't get used to this format.
+function oldFunc3(name) { // <== Do not use.
     return `My name is still ${name}.`;
 }
 
@@ -48,7 +55,7 @@ const newFunc4 = (a, b) => {
         return n * 2;
     }
 
-    let result = add(a, b);
+    const result = add(a, b);
     return result;
 }
 
