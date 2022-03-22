@@ -36,12 +36,16 @@ const newFunc3 = (name) => {
 
 const newFunc4 = (a, b) => {
    
-    const sub = (a, b) => {  // Defined but not used.
+    const sub = (a, b) => {  // Defined, not used.
         return a - b;
     }
 
     const add = (a, b) => { // Defined and used.
         return a + b;
+    }
+
+    const doubleNumber = n => { // Defined, not used.
+        return n * 2;
     }
 
     let result = add(a, b);
