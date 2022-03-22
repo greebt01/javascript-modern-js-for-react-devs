@@ -4,7 +4,7 @@ solve a problem.  In a perfectly balanced OOP solution, all the objects have an 
 and all the object are formatted exactly the same.  This is easier to say than it is to do!
 
 # OOP Definitions for JavaScript
-OOP with JavaScript is not very mature.  Languages such as Java, C# and C++ implement object oriented concepts more throughly than than JavaScript.
+OOP with JavaScript is not very mature, but its getting better.  Languages such as Java, C# and C++ implement object oriented concepts more throughly than than JavaScript.
 
 - Classes: A cookie cutter template that is used to create more instances of itself
 - Constructor: A special method that is used to initialize and setup a class for use when the class is instaniated
@@ -22,6 +22,8 @@ OOP with JavaScript is not very mature.  Languages such as Java, C# and C++ impl
 - Super: This keyword is used to call a method in the base class
 
 # Notes
+- [OOP](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [Staic](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
 #### Benefits of OOP
 - Code reuse
@@ -31,6 +33,3 @@ OOP with JavaScript is not very mature.  Languages such as Java, C# and C++ impl
 
 #### Difference between Class vs. Object
 An object is an instance of a class.  A class is a template used to instaniate an object.
-
-- [OOP](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-- [Staic](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)

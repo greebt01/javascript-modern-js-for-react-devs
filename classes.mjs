@@ -30,7 +30,7 @@ const inheritence = () => {
 
     const d2 = new Dog(8);
     const d3 = new Dog(11);
-    console.log(Animal.animalCount);
+    console.log(`Number of animals: ${Animal.animalCount}.`);
 }
 
 //////////////////////////////////////////////////////////////////////////
