@@ -15,7 +15,7 @@ export default class Cat {
     #age = 4;  // Private: Accessible only with in this class (AKA Hash name)
   
     ///////////////////////////////////////////////////////////////////////////
-    // Constructors:
+    // Constructors
     ///////////////////////////////////////////////////////////////////////////
   
     constructor (name) { // Constructor overloading not supported yet.

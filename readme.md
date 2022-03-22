@@ -19,6 +19,7 @@ they start creating React components.
 |[Functional Programming](functional-programming.mjs)           |`node functional-programming.mjs` |
 
 - [JavaScript Quick Reference](javascript-reference.md)
+- [Object Oriented Reference](oop-reference.md)
 
 # DOM
 - [JavaScript DOM Crash Course - Part 1 (40 min)](https://youtu.be/0ik6X4DJKCc)

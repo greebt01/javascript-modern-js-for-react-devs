@@ -6,6 +6,7 @@
 import Cat from "./classes/Cat.mjs";
 import Dog from "./classes/Dog.mjs";
 import Person from "./classes/Person.mjs";
+import Animal from "./classes/Animal.mjs";
 
 const test = () => {
     let p1 = new Person('Joe'); // Instaniate a Person.
@@ -23,14 +24,18 @@ const test = () => {
 }
 
 const inheritence = () => {
-    let d1 = new Dog(5);
+    const d1 = new Dog(5);
     d1.speakAge();
     d1.bark();
+
+    const d2 = new Dog(8);
+    const d3 = new Dog(11);
+    console.log(Animal.animalCount);
 }
 
 //////////////////////////////////////////////////////////////////////////
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-test();
-//inheritence();
+//test();
+inheritence();
