@@ -16,7 +16,7 @@ they start creating React components.
 |[Destructuring & Spread](destructuring-spread.mjs)         |`node destructuring-spread.mjs`   |
 |[Classes](classes.mjs)                                     |`node classes.mjs`                |
 |[Promises/Async](promises-async-await.mjs)                 |`node promises-async-await.mjs`   |
-|[Functional Programming](functional-programming)           |`node functional-programming.mjs` |
+|[Functional Programming](functional-programming.mjs)           |`node functional-programming.mjs` |
 
 - [JavaScript Quick Reference](javascript-reference.md)
 
