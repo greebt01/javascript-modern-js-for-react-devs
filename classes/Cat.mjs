@@ -8,7 +8,7 @@
 export default class Cat {
 
     ///////////////////////////////////////////////////////////////////////////
-    // Data members
+    // Data members  (fields or properties)
     ///////////////////////////////////////////////////////////////////////////
     
     name = ""; // Public: Accessible outside of this class.
@@ -47,6 +47,5 @@ export default class Cat {
     #amIHungry() {
         return true;
     }
-
   }
   
