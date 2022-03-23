@@ -43,4 +43,4 @@ they start creating React components.
 - [Symbols](https://www.programiz.com/javascript/symbol)
 - [Memory Stack vs Heap](https://felixgerschau.com/javascript-memory-management/)
 - [JavaScript Private Class Features](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
-- 
+- [Spread Use Case](https://www.samanthaming.com/tidbits/92-6-use-cases-of-spread-with-array/)
