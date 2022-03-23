@@ -5,6 +5,10 @@
 
 const destructuring = () => {
 
+    //
+    // Destructuring: Pulling a small thing out of a much larger thing.
+    //
+
     // Our nicely structured object.
     let person = {
         firstName: 'John',
@@ -21,8 +25,9 @@ const destructuring = () => {
     let { firstName } = person; 
 
     console.log(firstName)
-
-    // This is commonly used in React components.
+    
+    // Another example...
+    const { PI, LN10, SQRT2 } = Math;
 }
 
 const spread = () => {
