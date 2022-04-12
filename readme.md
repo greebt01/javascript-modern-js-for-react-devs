@@ -40,7 +40,7 @@ Describes modern JavaScript with a focus on frontend React development.  Assignm
 # JavaScript
 - Functions are first class citizens in JavaScript
 - JavaScript has [two types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures): 
-  - Primitive types: (null, undefined, boolean, number, string, symbol, and BigInt)
+  - Primitive types: (null, undefined, Boolean, Number, String, Symbol, and BigInt)
   - Reference types: (objects)
 
 # DOM Manipulation
