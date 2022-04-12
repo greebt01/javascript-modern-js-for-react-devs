@@ -44,9 +44,9 @@ Describes modern JavaScript with a focus on frontend React development.  Assignm
   - Primitive types: (null, undefined, boolean, number, string, symbol, and BigInt)
   - Reference types: (objects)
 
-# DOM
-- JavaScript can be use to manipulate the DOM, but in general we don't need to do this in our React apps
-- React manipulates the real DOM based on the changes to React's virtual DOM
+# DOM Manipulation
+- Document Object Model (DOM)
+- JavaScript can be use to manipulate the DOM, but in general we shouldn't do this in our React applications because React manages the DOM for us
 
 # Developing Apps for the Browser
 - The modern web browser is a highly sophisticated tool for rendering web pages and executing JavaScript
