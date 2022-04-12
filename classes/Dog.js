@@ -5,7 +5,7 @@
 // Desc: Dog class.
 //
 
-import Animal from "./Animal.mjs";
+import Animal from "./Animal.js";
 
 export default class Dog extends Animal {
 

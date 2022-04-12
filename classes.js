@@ -3,10 +3,10 @@
 // Date: 3/21/2022
 // 
 
-import Cat from "./classes/Cat.mjs";
-import Dog from "./classes/Dog.mjs";
-import Person from "./classes/Person.mjs";
-import Animal from "./classes/Animal.mjs";
+import Cat from "./classes/Cat.js";
+import Dog from "./classes/Dog.js";
+import Person from "./classes/Person.js";
+import Animal from "./classes/Animal.js";
 
 const test = () => {
     let p1 = new Person('Joe'); // Instaniate a Person.
