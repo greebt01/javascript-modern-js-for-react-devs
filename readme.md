@@ -19,7 +19,7 @@ Describes modern JavaScript with a focus on frontend React development.  Assignm
 - [JavaScript Quick Reference](javascript-reference.md)
 - [Object Oriented Reference](oop-reference.md)
 - [Coercion (casting)](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
-- [Hoisting])(https://www.w3schools.com/js/js_hoisting.asp)
+- [Hoisting](https://www.w3schools.com/js/js_hoisting.asp)
 - [Null vs Undefined](https://flexiple.com/undefined-vs-null-javascript/#:~:text=Unassigned%20variables%20are%20initialized%20by%20JavaScript%20with%20a%20default%20value%20of%20undefined.&text=Here%20as%20the%20variable%20is,a%20representation%20of%20no%20value.)
 - [Symbols](https://www.programiz.com/javascript/symbol)
 - [Memory Stack vs Heap](https://felixgerschau.com/javascript-memory-management/)
