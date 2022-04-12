@@ -28,16 +28,14 @@ Describes modern JavaScript with a focus on frontend React development.  Assignm
 - [Spread Use Case](https://www.samanthaming.com/tidbits/92-6-use-cases-of-spread-with-array/)
 
 # JavaScript Code Examples
-|Context                                                    
-|-----------------------------------------------------------|
-|[Variables & Block Scope](variables-block-scope.mjs)       |
-|[Loops & Operators](loops-operators.mjs)                   |
-|[Types & Coercion & Equality](types-coercion-equality.mjs) |
-|[Arrow Functions](arrow-functions.mjs)                     |
-|[Destructuring & Spread](destructuring-spread.mjs)         |
-|[Classes](classes.mjs)                                     |
-|[Promises/Async](promises-async-await.mjs)                 |
-|[Functional Programming](functional-programming.mjs)       |
+- [Variables & Block Scope](variables-block-scope.mjs)
+- [Loops & Operators](loops-operators.mjs)
+- [Types & Coercion & Equality](types-coercion-equality.mjs)
+- [Arrow Functions](arrow-functions.mjs)
+- [Destructuring & Spread](destructuring-spread.mjs)
+- [Classes](classes.mjs)
+- [Promises/Async](promises-async-await.mjs)
+- [Functional Programming](functional-programming.mjs)
 
 # JavaScript
 - Functions are first class citizens in JavaScript
