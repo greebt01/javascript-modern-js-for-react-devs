@@ -1,7 +1,8 @@
 //
-// File: classes.mjs
+// File: classes.js
 // Date: 3/21/2022
-// 
+// Desc: To run, execute: node classes
+//
 
 import Cat from "./classes/Cat.js";
 import Dog from "./classes/Dog.js";

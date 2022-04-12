@@ -1,7 +1,8 @@
 //
-// File: promises-async-await.mjs
+// File: promises-async-await.js
 // Date: 3/21/2022
-// 
+// Desc: To run, execute: node promises-async-await
+//
 
 const myPromise = () => {
     return new Promise(function(resolve, reject) {

@@ -1,6 +1,7 @@
 // 
 // File: variables-block-scope.js
 // Date: 3/21/2022
+// Desc: To run, execute: node variables-block-scope
 //
 
 const MEANING_OF_LIFE = 42;

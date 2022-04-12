@@ -1,7 +1,8 @@
 //
-// File: functional-programming-mjs
+// File: functional-programming.js
 // Date: 3/21/2022
-// 
+// Desc: To run, execute: node functional-programming.js
+//
 
 const map = () => {
     // Map: Applies an expression to every item in the collection, returns a

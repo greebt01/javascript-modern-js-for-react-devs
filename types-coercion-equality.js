@@ -1,6 +1,7 @@
 // 
 // File: types-coercion-equality.js
 // Date: 3/21/2022
+// Desc: To run, execute: node types-coercion-equality
 //
 
 import Person from './classes/Person.js'

@@ -1,7 +1,8 @@
 //
-// File: loops-operators.mjs
+// File: loops-operators.js
 // Date: 3/21/2022
-// 
+// Desc: To run, execute: node loops-operators
+//
 
 const loops = () => {
     

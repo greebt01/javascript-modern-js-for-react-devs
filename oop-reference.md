@@ -1,14 +1,14 @@
 # OOP Reference
 Object Oriented Programming (OOP) is the tasteful interaction of objects working together in harmony to 
 solve a problem.  In a perfectly balanced OOP solution, all the objects have an equal weight (or responsibility), 
-and all the object are formatted exactly the same.  This is easier to say than it is to do!
+and all the object are formatted exactly the same.  This is much easier to say than it is to do!
 
 # OOP Definitions for JavaScript
-OOP with JavaScript is not very mature, but its getting better.  Languages such as Java, C# and C++ implement object oriented concepts more throughly than than JavaScript.
+OOP with JavaScript is not very mature, but its getting better.  Languages such as Java, C# and C++ implement object oriented concepts more throughly than than JavaScript (ES6).
 
-- Classes: A template (blueprint) that is used to create more instances of itself
+- Class: A template (blueprint) that is used to create more than one instance of itself
 - Constructor: A special method that is used to initialize and setup a class for use when the class is instaniated
-- Inheritence: Extends the functionality of an object
+- Inheritence: A concept that extends the functionality of a class
 - Access modifiers: Allow us to restrict access of behavior and logic for a class.
   - None: Public
   - `#`: Private 

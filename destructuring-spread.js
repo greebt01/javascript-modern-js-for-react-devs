@@ -1,6 +1,7 @@
 //
-// File: destructuring-spread.mjs
+// File: destructuring-spread.js
 // Date: 3/21/2022
+// Desc: To run, execute: node destructuring-spread
 //
 
 const destructuring = () => {

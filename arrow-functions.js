@@ -1,6 +1,7 @@
 //
-// File: arrow-functions.mjs
+// File: arrow-functions.js
 // Date: 3/21/2022
+// Desc: To run, execute: node arrow-functions
 //
 
 function oldFunc1() { // <== Do not use.
