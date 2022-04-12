@@ -27,17 +27,17 @@ Describes modern JavaScript with a focus on frontend React development.  Assignm
 - [JavaScript Private Class Features](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
 - [Spread Use Case](https://www.samanthaming.com/tidbits/92-6-use-cases-of-spread-with-array/)
 
-# Code Examples
-|Context                                                    |Filename                     |
-|-----------------------------------------------------------|-----------------------------|
-|[Variables & Block Scope](variables-block-scope.mjs)       |`variables-block-scope.mjs`  |
-|[Loops & Operators](loops-operators.mjs)                   |`loops-operators.mjs`        |
-|[Types & Coercion & Equality](types-coercion-equality.mjs) |`types-coercion-equality.mjs`|
-|[Arrow Functions](arrow-functions.mjs)                     |`arrow-functions.mjs`        |
-|[Destructuring & Spread](destructuring-spread.mjs)         |`destructuring-spread.mjs`   |
-|[Classes](classes.mjs)                                     |`classes.mjs`                |
-|[Promises/Async](promises-async-await.mjs)                 |`promises-async-await.mjs`   |
-|[Functional Programming](functional-programming.mjs)       |`functional-programming.mjs` |
+# JavaScript Code Examples
+|Context                                                    |Filename                                                  |
+|-----------------------------------------------------------|----------------------------------------------------------|
+|[Variables & Block Scope](variables-block-scope.mjs)       |[variables-block-scope.mjs](./variables-block-scope.mjs)  |
+|[Loops & Operators](loops-operators.mjs)                   |[loops-operators.mjs](loops-operators.mjs)                |
+|[Types & Coercion & Equality](types-coercion-equality.mjs) |[types-coercion-equality.mjs](types-coercion-equality.mjs)|
+|[Arrow Functions](arrow-functions.mjs)                     |[arrow-functions.mjs](arrow-functions.mjs)                |
+|[Destructuring & Spread](destructuring-spread.mjs)         |[destructuring-spread.mjs](destructuring-spread.mjs)      |
+|[Classes](classes.mjs)                                     |[classes.mjs](classes.mjs)                                |
+|[Promises/Async](promises-async-await.mjs)                 |[promises-async-await.mjs](promises-async-await.mjs)      |
+|[Functional Programming](functional-programming.mjs)       |[functional-programming.mjs](functional-programming.mjs)  |
 
 # JavaScript
 - Functions are first class citizens in JavaScript
