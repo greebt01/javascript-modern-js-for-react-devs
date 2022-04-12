@@ -11,6 +11,7 @@ Describes modern JavaScript with a focus on frontend React development.  Assignm
   - Excute: `git clone git@github.com:mburolla/javascript-modern-js-for-react-devs.git`
 
 # Videos
+- [ES6 Tutorial: Learn Modern JavaScript (1hr)](https://youtu.be/NCwa_xi0Uuc)
 - [JavaScript DOM Crash Course - Part 1 (40m)](https://youtu.be/0ik6X4DJKCc)
 - [Google Dev Tools (30m)](https://youtu.be/VYyQv0CSZOE)
 - [JavaScript Cookies vs Local Storage vs Session (15m)](https://youtu.be/GihQAC1I39Q)
