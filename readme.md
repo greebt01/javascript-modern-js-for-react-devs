@@ -1,5 +1,5 @@
 # Modern JavaScript for React Developers
-Describes modern JavaScript with a focus on frontend React development.  Assignments are located [here](./assignments.md).
+Assignment repo that describes modern JavaScript with a focus on frontend React development.  Assignments are located [here](./assignments.md).
 
 # Getting Started 
 - Prerequisites
@@ -30,7 +30,7 @@ Describes modern JavaScript with a focus on frontend React development.  Assignm
 # JavaScript Code Examples
 - [Variables & Block Scope](variables-block-scope.js)
 - [Loops & Operators](loops-operators.js)
-- [Types & Coercion & Equality](types-coercion-equality.js)
+- [Types & Coercion & Equality](types-coercion-equality.js) *** Important ***
 - [Arrow Functions](arrow-functions.js)
 - [Destructuring & Spread](destructuring-spread.js)
 - [Classes](classes.js)
