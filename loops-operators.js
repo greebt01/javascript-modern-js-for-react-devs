@@ -6,9 +6,26 @@
 
 const loops = () => {
     
-    // For loop.
+    // Classic for loop.
     for (let i = 0; i < 3; i++) {
         console.log(i);
+    }
+    console.log("*".repeat(5));
+
+    // For in Loop.
+    const person = { fname: "John", lname: "Doe", age:25 };
+    let text = "";
+    for (let x in person) { // Key
+      text += person[x];
+    }
+    console.log(text);
+    console.log("*".repeat(5));
+
+    // For of.
+    const fruits = ['banna', 'apple', 'orange'];
+    let text2 = "";
+    for (let f of fruits) {
+       console.log(f);
     }
     console.log("*".repeat(5));
 
@@ -22,10 +39,13 @@ const loops = () => {
     console.log("*".repeat(5));
 
     // while loop.
-    let i = 0;  // <== Note this i does not "conflict" with the i on line 9.
+    let i = 0;  // <== Note this i does not "conflict" with the i on line 9. (Scope)
     while (i < 3) {
         console.log(i);
         i++;
+        if (i == 5) {
+            break; // Will never execute.
+        }
     }
     console.log("*".repeat(5));
 
@@ -78,6 +98,6 @@ const shortCircuit = () => {
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-//loops();
+loops();
 //operatorPrecendence();
-shortCircuit();
+//shortCircuit();

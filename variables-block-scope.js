@@ -6,6 +6,11 @@
 
 const MEANING_OF_LIFE = 42;
 
+// ES5: vars can be used before they are declared, use let/const instead.
+// ES5: Vars are globally scoped, use let/const instead.
+catName = "Gypsy"
+var catName // NEVER USE VAR IN MODERN JAVASCRIPT
+
 const variables = () => {
     let num1 = 10;  // Delcare a variable called num1 and initialize it to 10.
     let num2 = 20;  // Delcare a variable called num1 and initialize it to 20.

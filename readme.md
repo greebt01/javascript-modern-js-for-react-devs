@@ -2,16 +2,15 @@
 Assignment repo that describes modern JavaScript with a focus on frontend React development.  Assignments are located [here](./assignments.md).
 
 # Getting Started 
-- Prerequisites
+- Install prerequisites
   - NodeJS
   - VSCode
-- Clone this repo:
-  - Make a directory
-  - CD into this directory
-  - Excute: `git clone git@github.com:mburolla/javascript-modern-js-for-react-devs.git`
+- Clone this repo
 
 # Videos
-- [ES6 Tutorial: Learn Modern JavaScript (1hr)](https://youtu.be/NCwa_xi0Uuc)
+- [JavaScript Crash Course For Beginners](https://youtu.be/hdI2bqOjy3c)
+- [JavaScript Functions (48m)](https://app.pluralsight.com/library/courses/javascript-functions/table-of-contents)
+- [Mosh ES6 Tutorial: Learn Modern JavaScript (1hr)](https://youtu.be/NCwa_xi0Uuc)
 - [JavaScript DOM Crash Course - Part 1 (40m)](https://youtu.be/0ik6X4DJKCc)
 - [Google Dev Tools (30m)](https://youtu.be/VYyQv0CSZOE)
 - [JavaScript Cookies vs Local Storage vs Session (15m)](https://youtu.be/GihQAC1I39Q)
@@ -32,6 +31,7 @@ Assignment repo that describes modern JavaScript with a focus on frontend React 
 - [Loops & Operators](loops-operators.js)
 - [Types & Coercion & Equality](types-coercion-equality.js) *** Important ***
 - [Arrow Functions](arrow-functions.js)
+- [Arrays & Dictionaries](arrays-dictionaries.js)
 - [Destructuring & Spread](destructuring-spread.js)
 - [Classes](classes.js)
 - [Promises/Async](promises-async-await.js)
