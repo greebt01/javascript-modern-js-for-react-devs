@@ -5,7 +5,7 @@
 
 import Calculator from '../classes/Calculator.js';
 
-let ex1 = () => {
+const ex1 = () => {
     console.log('*** Ex. 1 ***');
 
     let dict = [
@@ -22,7 +22,7 @@ let ex1 = () => {
     console.log(`The total age is: ${age}.`);
 }
 
-let ex2 = () => {
+const ex2 = () => {
     console.log('*** Ex. 2 ***');
 
     let customers = [{
@@ -39,7 +39,7 @@ let ex2 = () => {
     console.log(customers.find(c => c.credit = 200));
 }
 
-let ex3 = () => {
+const ex3 = () => {
     console.log('*** Ex. 3 ***');
 
     let str = "today this is a this is a this is a test.";
@@ -51,56 +51,56 @@ let ex3 = () => {
     console.log(`this appears: ${thisLocations.size-1} times.`);
 }
 
-let ex4 = () => {
+const ex4 = () => {
     console.log('*** Ex. 4 ***');
 
     array = ['this', 'is', 'a', 'test', 'happy'];
     console.log(longestString(array));
 }
 
-let ex5 = () => {
+const ex5 = () => {
     console.log('*** Ex. 5 ***');
 
     console.log(palindrome('radar'));
     console.log(palindrome('month'));
 }
 
-let ex6 = () => {
+const ex6 = () => {
     console.log('*** Ex. 6 ***');
 
     let n = [1, 3, 6, 3, 6, 10];
     console.log(sort(n));
 }
 
-let ex7 = () => {
+const ex7 = () => {
     console.log('*** Ex. 7 ***');
 
     let words = "Count the words in this string";
     console.log(countWords(words));
 }
 
-let ex8 = () => {
+const ex8 = () => {
     console.log('*** Ex. 8 ***');
 
     var a = "this counts the number of words that end in s";
     console.log(countS(a));
 }
 
-let ex9 = () => {
+const ex9 = () => {
     console.log('*** Ex. 9 ***');
 
     var array = ["this", "is", "a", "test"];
     console.log(countLetters(array));``
 }
 
-let ex10 = () => {
+const ex10 = () => {
     console.log('*** Ex. 10 ***');
 
     let arr = ['dog', 3, 7, 'cat', 13, 'car'];
     console.log(numbersOnly(arr));
 }
 
-let ex11 = () => {
+const ex11 = () => {
     const c = new Calculator();
     c.add(1,2);
     c.sub(4,1);
