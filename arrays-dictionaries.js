@@ -6,49 +6,65 @@
 //
 
 const arrays = () => {
-    console.log('arrays')
-    const numbers = ['one', 'two', 'three']
-    const numbers2 = ['one', 2, 'three', 4] // Weekly typed.
-    const numbers3 = [1, 2, 3, 4] 
+  console.log("arrays");
+  const numbers = ["one", "two", "three"];
+  const numbers2 = ["one", 2, "three", 4]; // Weekly typed.
+  const numbers3 = [1, 2, 3, 4];
 
-    console.log(numbers2[0])
-    console.log(numbers2[1])
-    console.log(numbers2[2])
+  console.log(numbers2[0]);
+  console.log(numbers2[1]);
+  console.log(numbers2[2]);
 
-    numbers.push('four')
+  numbers.push("four");
 
-    // Map...
-    let newArray = numbers3.map(i => i * 2) // Double it.
+  // Map...
+  let newArray = numbers3.map((i) => i * 2); // Double it.
+  // let newArray = numbers3.map(function(i) {
+  //     return i * 2;
+  // }) // Double it.
 
-    // Filter
-    let newFilteredArray = numbers3.filter(i => i > 2);
+  // Filter..
+  let newFilteredArray = numbers3.filter((i) => i > 2);
 
-    // Find
-    let result = numbers3.find(i => i == 2);
+  // Find...
+  let result = numbers3.find((i) => i == 2);
 
-    console.log(newArray)
-    console.log(newFilteredArray)
-    console.log(result)
-}
+  // Iteration...
+  let outString = "";
+  numbers3.forEach(i => {
+    outString += i + ", "
+  });
+  const theResult = outString.slice(0, outString.length-2)
+
+//   console.log(newArray);
+//   console.log(newFilteredArray);
+//   console.log(result);
+//   console.log(theResult);
+
+};
 
 const dictionaries = () => {
-    //console.log('dictionaries')
-    const dictionary1 = { firstName: "Joe", lastName: "Smith"}
+  const dictionary1 = { firstName: "Joe", lastName: "Smith" }; // Object
+  const person = { firstName: "Tom", lastName: "Thumb" }; // <== JSON
 
-    console.log(dictionary1)
+  const usersDictionary = {
+    // Like a Java HashMap.
+    1111: { name: "Bob Marley" },
+    2222: { name: "Charlie Daniels" },
+  };
 
+  usersDictionary[3333] = { name: "David Banner" }; // Dynamically add a user.
+  usersDictionary["4444"] = { name: "Ellie Kemper" }; // Weekly typed.
 
-}
-
-const nested = () => {
-
-}
-
+  console.log(dictionary1.firstName);
+  console.log(dictionary1.lastName);
+  console.log(person);
+  console.log(usersDictionary[4444]);
+};
 
 //////////////////////////////////////////////////////////////////////////
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-// arrays();
-dictionaries();
-// nested();
+arrays();
+//dictionaries();
