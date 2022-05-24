@@ -19,13 +19,13 @@ const variables = () => {
 }
 
 const constants = () => {
-    const num1 = 10; // Delcare a constant called num1 and initialize it to 10.
-    const num2 = 20; // Delcare a constant called num1 and initialize it to 20.
+    const NUM_1 = 10; // Delcare a constant called num1 and initialize it to 10.
+    const NUM_2 = 20; // Delcare a constant called num1 and initialize it to 20.
 
-    num1 = 55; // Error!  Cannot change a constant.
+    NUM_1 = 55; // Error!  Cannot change a constant.
 
     // ProTip: Always favor const over let, never use var.
-    console.log(num1, num2);
+    console.log(NUM_1, NUM_2);
 }
 
 const scope = () => {
@@ -35,6 +35,11 @@ const scope = () => {
     var num2 = 54; // <== Old ES 5 approach, DO NOT USE VAR.
 
     console.log(MEANING_OF_LIFE); 
+
+    {
+        let num1 = 5150;
+        console.log(num1);
+    }
 }
 
 
@@ -42,7 +47,7 @@ const scope = () => {
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-variables();
+//variables();
 //constants();
-//scope();
+scope();
 
