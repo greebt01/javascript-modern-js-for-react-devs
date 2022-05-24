@@ -1,3 +1,9 @@
+//
+// File: lecture-1.js
+// Date: 3/21/2022
+// Desc: To run, execute: node loops-operators
+//
+
 // Variables 
 //  - Null/Undefined.
 // Loops

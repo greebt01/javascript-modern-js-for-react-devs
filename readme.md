@@ -1,6 +1,8 @@
 # Modern JavaScript for React Developers
 Assignment repo that describes modern JavaScript with a focus on frontend React development.  Assignments are located [here](./assignments.md).
 
+[ES 6 new features](https://www.w3schools.com/js/js_es6.asp)
+
 # Getting Started 
 - Install prerequisites
   - NodeJS
@@ -28,6 +30,7 @@ Assignment repo that describes modern JavaScript with a focus on frontend React 
 - [Dictionaries](https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs)
 - [Map Function](https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/)
 - [Strings](https://www.w3schools.com/js/js_strings.asp)
+- [Scope](https://www.w3schools.com/js/js_scope.asp)
 
 # JavaScript Code Examples
 - [Variables & Block Scope](variables-block-scope.js)
