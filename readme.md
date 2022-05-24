@@ -48,7 +48,7 @@ Assignment repo that describes modern JavaScript with a focus on frontend React 
 - [Variables](https://www.w3schools.com/js/js_variables.asp)
 - [Let](https://www.w3schools.com/js/js_let.asp)
 - [Const](https://www.w3schools.com/js/js_const.asp)
-- [DataTypes] (https://www.w3schools.com/js/js_datatypes.asp)
+- [DataTypes](https://www.w3schools.com/js/js_datatypes.asp)
 - [String Methods](https://www.w3schools.com/js/js_string_methods.asp)
 - [String Search](https://www.w3schools.com/js/js_string_search.asp)
 - [Array](https://www.w3schools.com/js/js_arrays.asp)
