@@ -27,6 +27,7 @@ Assignment repo that describes modern JavaScript with a focus on frontend React 
 - [Spread Use Case](https://www.samanthaming.com/tidbits/92-6-use-cases-of-spread-with-array/)
 - [Dictionaries](https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs
 - [Map Function](https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/)
+- [Strings](https://www.w3schools.com/js/js_strings.asp)
 
 # JavaScript Code Examples
 - [Variables & Block Scope](variables-block-scope.js)
