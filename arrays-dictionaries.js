@@ -33,6 +33,15 @@ const arrays = () => {
 
 const dictionaries = () => {
     //console.log('dictionaries')
+    const dictionary1 = { firstName: "Joe", lastName: "Smith"}
+
+    console.log(dictionary1)
+
+
+}
+
+const nested = () => {
+
 }
 
 
@@ -40,5 +49,6 @@ const dictionaries = () => {
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-arrays();
+// arrays();
 dictionaries();
+// nested();
