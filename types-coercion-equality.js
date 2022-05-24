@@ -60,13 +60,21 @@ const typesReference = () => {
     console.log(dictionary[2]);
     console.log(typeof(dictionary));
 
-    // Set
-    // TODO: Set.
-
     // Class
     let mary = new Person('Mary');
     mary.introduceSelf();
     console.log(typeof(mary));
+
+    // Set
+    const mySet1 = new Set();
+    mySet1.add(1)
+    mySet1.add(1)
+    mySet1.add(2)
+    mySet1.add(2)
+    mySet1.add(3)
+    mySet1.add(4)
+    console.log(mySet1) // Sets remove dupes.
+    // todo: finish
 }
 
 const coercion = () => {
@@ -127,8 +135,8 @@ const equality = () => {
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
-types();
+//types();
 //typesPrimative();
-//typesReference();
+typesReference();
 //coercion();
 //equality();
