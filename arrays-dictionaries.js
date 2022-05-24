@@ -6,7 +6,6 @@
 //
 
 const arrays = () => {
-  console.log("arrays");
   const numbers = ["one", "two", "three"];
   const numbers2 = ["one", 2, "three", 4]; // Weekly typed.
   const numbers3 = [1, 2, 3, 4];
@@ -36,11 +35,10 @@ const arrays = () => {
   });
   const theResult = outString.slice(0, outString.length-2)
 
-//   console.log(newArray);
-//   console.log(newFilteredArray);
-//   console.log(result);
-//   console.log(theResult);
-
+  console.log(newArray);
+  console.log(newFilteredArray);
+  console.log(result);
+  console.log(theResult);
 };
 
 const dictionaries = () => {
