@@ -2,6 +2,7 @@
 // File: arrow-functions.js
 // Date: 3/21/2022
 // Desc: To run, execute: node arrow-functions
+// Vids: https://app.pluralsight.com/library/courses/javascript-functions/table-of-contents
 //
 
 function oldFunc1() { // <== Do not use.
@@ -25,7 +26,7 @@ const newFunc2 = (name) => {
     console.log(`My name is ${name}.`)
 }
 
-const newFunc2Again = name => { // <== Parens not required for one arguement.
+const newFunc2Again = name => { // <== Parens not required if only one argument is specified.
     console.log(`My name is ${name}.`)
 }
 
@@ -60,10 +61,19 @@ const newFunc4 = (a, b) => {
     return result;
 }
 
+const shocking = (number) => {
+    console.log('Shocking!! ' + number);
+    return 'hello';
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Topics
 /////////////////////////////////////////////////////////////////////////
 
+shocking();
+shocking('test');
+shocking(1, 'test', 22.2, 'hello there', 12345);
+//
 oldFunc1();
 newFunc1();
 //
