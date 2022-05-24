@@ -31,10 +31,11 @@ Assignment repo that describes modern JavaScript with a focus on frontend React 
 
 # JavaScript Code Examples
 - [Variables & Block Scope](variables-block-scope.js)
+- [Types & Coercion & Equality](types-coercion-equality.js)
 - [Loops & Operators](loops-operators.js)
-- [Types & Coercion & Equality](types-coercion-equality.js) *** Important ***
 - [Arrow Functions](arrow-functions.js)
 - [Arrays & Dictionaries](arrays-dictionaries.js)
+---
 - [Destructuring & Spread](destructuring-spread.js)
 - [Classes](classes.js)
 - [Promises/Async](promises-async-await.js)
