@@ -44,6 +44,16 @@ Assignment repo that describes modern JavaScript with a focus on frontend React 
 - [Promises/Async](promises-async-await.js)
 - [Functional Programming](functional-programming.js)
 
+# W3 Schools Topics
+- [Variables](https://www.w3schools.com/js/js_variables.asp)
+- [Let](https://www.w3schools.com/js/js_let.asp)
+- [Const](https://www.w3schools.com/js/js_const.asp)
+- [DataTypes] (https://www.w3schools.com/js/js_datatypes.asp)
+- [String Methods](https://www.w3schools.com/js/js_string_methods.asp)
+- [String Search](https://www.w3schools.com/js/js_string_search.asp)
+- [Array](https://www.w3schools.com/js/js_arrays.asp)
+
+
 # JavaScript
 - Functions are first class citizens in JavaScript
 - JavaScript has [two types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures): 
