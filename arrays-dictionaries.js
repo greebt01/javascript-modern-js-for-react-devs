@@ -23,8 +23,12 @@ const arrays = () => {
     // Filter
     let newFilteredArray = numbers3.filter(i => i > 2);
 
+    // Find
+    let result = numbers3.find(i => i == 2);
+
     console.log(newArray)
     console.log(newFilteredArray)
+    console.log(result)
 }
 
 const dictionaries = () => {
