@@ -9,7 +9,7 @@ import Person from './classes/Person.js'
 const types = () => {
     // (null, undefined, boolean, number, string, symbol, and BigInt)
     let b = false; // JavaScript infers the type for us: boolean.
-    // Boolean b = false; // Don't have to do this in JavaScript because its a loosely typed dynamic language.
+    // Boolean b = false; // Don't have to do this in JavaScript because its a weakly typed dynamic language.
 
     console.log(typeof(b));
     b = 123; // Now JavaScript infers the type for us: number.
