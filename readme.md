@@ -25,7 +25,7 @@ Assignment repo that describes modern JavaScript with a focus on frontend React 
 - [Memory Stack vs Heap](https://felixgerschau.com/javascript-memory-management/)
 - [JavaScript Private Class Features](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
 - [Spread Use Case](https://www.samanthaming.com/tidbits/92-6-use-cases-of-spread-with-array/)
-- [Dictionaries](https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs
+- [Dictionaries](https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs)
 - [Map Function](https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/)
 - [Strings](https://www.w3schools.com/js/js_strings.asp)
 
