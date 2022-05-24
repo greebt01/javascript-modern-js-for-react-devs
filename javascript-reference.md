@@ -1,9 +1,10 @@
 # JavaScript Reference
+A quick reference that I found on the Internet...
 
 # JS Variables
 
 In JavaScript, we can declare varible using three different keywords:
-* var : create a variable globally availale throught the program
+* var : create a variable globally available throught the program
 * let : create a variable available just the block of code declared, as if statement or function
 * const : create a read-only reference to a value. 
 

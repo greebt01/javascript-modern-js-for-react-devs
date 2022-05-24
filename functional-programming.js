@@ -14,7 +14,7 @@ const map = () => {
     // c is an array that contians dictionary objects.
     // Maps are useful for transforming collections into something we desire.
     let c = a.map(i => {
-        return {doubleNumber: (i * 2)};
+        return { doubleNumber: (i * 2) };
     });
     console.log(c);
 
@@ -53,10 +53,10 @@ const sort = () => {
     console.log(n);
 
     // Sorting complex objects.
-    const p1 = { firstName: "Marty", age: 10};
-    const p2 = { firstName: "Jane", age: 20};
-    const p3 = { firstName: "Sally", age: 15};
-    const p4 = { firstName: "Fred", age: 17};
+    const p1 = { firstName: "Marty", age: 10 };
+    const p2 = { firstName: "Jane", age: 20 };
+    const p3 = { firstName: "Sally", age: 15 };
+    const p4 = { firstName: "Fred", age: 17 };
     const personList = [p1, p2, p3, p4];
     personList.sort((a, b) => {
         return (a.age < b.age) ? -1 : 1;
@@ -82,9 +82,9 @@ const find = () => {
     // For primative types, find() returns a reference to the
     // element in the provided array if found. If not found, returns
     // undefined.
-    const p1 = { firstName: "Marty", age: 10};
-    const p2 = { firstName: "Jane", age: 20};
-    const p3 = { firstName: "Sally", age: 15};
+    const p1 = { firstName: "Marty", age: 10 };
+    const p2 = { firstName: "Jane", age: 20 };
+    const p3 = { firstName: "Sally", age: 15 };
     const personList = [p1, p2, p3];
 
     const foundPerson = personList.find(p => p.firstName === "Marty");
