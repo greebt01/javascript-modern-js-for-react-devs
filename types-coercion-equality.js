@@ -74,7 +74,7 @@ const typesReference = () => {
     mySet1.add(3)
     mySet1.add(4)
     console.log(mySet1) // Sets remove dupes.
-    // todo: finish
+    console.log(typeof(mySet1));
 }
 
 const coercion = () => {
