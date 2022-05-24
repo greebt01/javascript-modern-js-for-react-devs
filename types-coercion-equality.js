@@ -90,7 +90,8 @@ const coercion = () => {
 
 const equality = () => {
     //
-    // Equality is SUPER IMPORTANT when working with State and React components.
+    // Understanding equality and reference change is SUPER IMPORTANT when 
+    // working with State and React components.
     //
 
     let a = 1;
