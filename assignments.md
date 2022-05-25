@@ -16,6 +16,23 @@ Output:
 ```
 
 ## Ex. 2
+Create an arrow function called `minNumber` that takes an array of numbers and
+returns the lowest number.  The function must use a for loop.
+
+Usage:
+```
+const array = [12, 55, 2, 22, 11];
+console.log(minNumber(array));
+```
+
+Output:
+```
+2
+```
+
+
+## Ex. 3
+
 
 
 

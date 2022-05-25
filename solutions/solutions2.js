@@ -9,17 +9,28 @@ const ex1 = () => {
 }
 
 const ex2 = () => {
-
+    const array = [12, 55, 2, 22, 11];
+    console.log(minNumber(array));
 }
 
 //
 // Your functions here...
 //
 
+const minNumber = (array) => {
+    let retval = 0;
+    for (let number of array) {
+        if (number < retval || retval == 0 ) {
+            retval = number;
+        }
+    }
+    return retval;
+}
+
 const countNumbers = (array) => {
     let retval = 0;
-    for (let i of array) {
-        if (typeof(i) == 'number') {
+    for (let item of array) {
+        if (typeof(item) == 'number') {
             retval++;
         }
     }
@@ -27,7 +38,7 @@ const countNumbers = (array) => {
 }
 
 const main = async () => {
-    ex1();
+    ex2();
 }
 
 main();
