@@ -169,6 +169,10 @@ Output:
 [ 3, 7, 13 ]
 ```
 
+
+
+
+
 ## Ex. 12 History Calculator
 Create a `Calculator` class that performs simple math operations and prints the results of all the calculations to the console.
 
