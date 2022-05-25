@@ -45,10 +45,9 @@ Output:
 1a2b3c4d5e
 ```
 
-
 Usage #2:
 ```
-const array1 = [1];
+const array1 = [1, 2];
 const array2 = ['a', 'b', 'c', 'd', 'e'];
 console.log(interleave(array1, array2));
 ```
@@ -57,14 +56,142 @@ Output:
 ```
 ERROR: Array length mismatch
 ```
-
 ## Ex. 4
+Write an arrow function named: `palindrome` that returns a boolean if a string is a palindrome:
 
+Usage:
+```
+console.log(palidrome('radar'));
+console.log(palidrome('month'));
+```
+Output:
+```
+true
+false
+```
 
+## Ex. 5
+Given the following string:
 
+```
+let str = "today this is a this is a this is a test.";
+```
 
+Display the number of times the word `this` appears:
 
-## Ex. 1
+Output:
+```
+this appears: 3 times.
+```
+
+## Ex. 6
+Write an arrow function named: `longestString` that returns the longest string from an array of strings:
+
+Usage:
+```
+array = ['this', 'is', 'a', 'test', 'happy'];
+console.log(longestString(array));
+```
+
+Output:
+```
+happy
+```
+
+## Ex. 7
+
+Write an arrow function named: `sort` that sorts an array of numbers in ascending order:
+
+Example usage:
+```
+let n = [1, 3, 6, 3, 6, 10];
+console.log(student0Sort(n));
+```
+Output:
+```
+[ 1, 3, 3, 6, 6, 10 ]
+```
+
+## Ex. 8
+
+Write an arrow function named: `countWords` that counts the number of words for this string:
+
+```
+let words = "Count the words in this string";
+```
+
+Output:
+```
+6
+```
+
+## Ex. 9
+Write am arrow function named: `countS` that counts the number of words that end in "s":
+
+Usage:
+```
+var a = "this counts the number of words that end in s";
+console.log(countS(a));
+```
+
+Output:
+```
+4
+```
+
+## Ex. 10
+Write an arrow function named: `countLetters` that counts the number of letters for an array of words:
+
+Usage:
+```
+    var array = ["this", "is", "a", "test"];
+    console.log(countLetters(array));
+```
+
+Output:
+```
+11
+```
+
+Bonus points for using `map` and `reduce`.
+
+## Ex. 11
+Write an arrow function named: `numberOnly` that counts the number of numbers in an array:
+
+Usage:
+```
+let arr = ['dog', 3, 7, 'cat', 13, 'car'];
+console.log(numbersOnly(arr));
+```
+
+Output:
+```
+[ 3, 7, 13 ]
+```
+
+## Ex. 12 History Calculator
+Create a `Calculator` class that performs simple math operations and prints the results
+of all the calculations to the console.
+
+Usage:
+```
+const c = new Calculator();
+c.add(1,2);
+c.sub(4,1);
+c.div(10,2);
+c.mul(2,2)
+console.log(c.getHistory())
+```
+
+Output:
+```
+Add: 1 + 2 = 3
+Sub: 4 - 1 = 3
+Div: 10 / 2 = 5
+Mul: 2 * 2 = 4
+```
+
+## Ex. 13
 
 Given the following dictionary:
 
@@ -83,7 +210,7 @@ Output:
 The total age is: 60.
 ```
 
-## Ex. 2
+## Ex. 14
 
 Given the following data:
 
@@ -106,140 +233,3 @@ Output:
 ```
 { name: 'ACME Corp', credit: 200 }
 ```
-
-## Ex. 3
-Given the following string:
-
-```
-let str = "today this is a this is a this is a test.";
-```
-
-Display the number of times the word `this` appears:
-
-Output:
-```
-this appears: 3 times.
-```
-
-## Ex. 4
-Write an arrow function named: `longestString` that returns the longest string from an array of strings:
-
-Usage:
-```
-array = ['this', 'is', 'a', 'test', 'happy'];
-console.log(student1LongestString(array));
-```
-
-Output:
-```
-happy
-```
-
-## Ex. 5
-Write an arrow function named: `palindrome` that returns a boolean if a string is a palindrome:
-
-Example usage:
-```
-console.log(student1Palidrome('radar'));
-console.log(student1Palidrome('month'));
-```
-Output:
-```
-true
-false
-```
-
-## Ex. 6
-
-Write an arrow function named: `sort` that sorts an array of numbers in ascending order:
-
-Example usage:
-```
-let n = [1, 3, 6, 3, 6, 10];
-console.log(student0Sort(n));
-```
-Output:
-```
-[ 1, 3, 3, 6, 6, 10 ]
-```
-
-## Ex. 7
-
-Write an arrow function named: `countWords` that counts the number of words for this string:
-
-```
-let words = "Count the words in this string";
-```
-
-Output:
-```
-6
-```
-
-## Ex. 8
-Write am arrow function named: `countS` that counts the number of words that end in "s":
-
-Usage:
-```
-var a = "this counts the number of words that end in s";
-console.log(countS(a));
-```
-
-Output:
-```
-4
-```
-
-## Ex. 9
-Write an arrow function named: `countLetters` that counts the number of letters for an array of words:
-
-Usage:
-```
-    var array = ["this", "is", "a", "test"];
-    console.log(countLetters(array));
-```
-
-Output:
-```
-11
-```
-
-Bonus points for using `map` and `reduce`.
-
-## Ex. 10
-Write an arrow function named: `numberOnly` that counts the number of numbers in an array:
-
-Usage:
-```
-let arr = ['dog', 3, 7, 'cat', 13, 'car'];
-console.log(numbersOnly(arr));
-```
-
-Output:
-```
-[ 3, 7, 13 ]
-```
-
-## Ex. 11 History Calculator
-Create a `Calculator` class that performs simple math operations and prints the results
-of all the calculations to the console.
-
-Usage:
-```
-const c = new Calculator();
-c.add(1,2);
-c.sub(4,1);
-c.div(10,2);
-c.mul(2,2)
-console.log(c.getHistory())
-```
-
-Output:
-```
-Add: 1 + 2 = 3
-Sub: 4 - 1 = 3
-Div: 10 / 2 = 5
-Mul: 2 * 2 = 4
-```
-
-
