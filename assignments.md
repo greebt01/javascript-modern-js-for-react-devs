@@ -198,9 +198,9 @@ Given the following dictionary:
 
 ```
     let dict = [
-        {"firstName": "joe", "lastName": "smith", age: 10},
-        {"firstName": "paul", "lastName": "simmon", age: 20},
-        {"firstName": "fred", "lastName": "jones", age: 30},
+        { "firstName": "joe", "lastName": "smith", age: 10 },
+        { "firstName": "paul", "lastName": "simmon", age: 20 },
+        { "firstName": "fred", "lastName": "jones", age: 30 },
     ]
 ```
 
