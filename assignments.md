@@ -102,7 +102,7 @@ happy
 
 Create an arrow function named: `sort` that sorts an array of numbers in ascending order:
 
-Example usage:
+Usage:
 ```
 let n = [1, 3, 6, 3, 6, 10];
 console.log(sort(n));
