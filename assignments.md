@@ -1,6 +1,28 @@
 # Modern JavaScript for React Developers Assignments
 
 ## Ex. 1
+Create an arrow function called `countNumbers` that takes an array and
+returns the number of numbers in it.
+
+Usage:
+```
+const array = [1, '2', 3, 'test', 1.2];
+console.log(countNumbers(array));
+```
+
+Output:
+```
+3
+```
+
+## Ex. 2
+
+
+
+
+
+
+## Ex. 1
 
 Given the following dictionary:
 
