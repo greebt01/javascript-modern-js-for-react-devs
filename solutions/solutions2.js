@@ -13,6 +13,11 @@ const ex2 = () => {
     console.log(minNumber(array));
 }
 
+const ex3 = () => {
+    
+}
+
+
 //
 // Your functions here...
 //

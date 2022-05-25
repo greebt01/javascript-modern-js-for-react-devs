@@ -6,7 +6,7 @@
 //
 
 function oldFunc1() { // <== Do not use.
-    console.log("I am old.");
+    console.log("I am old ES5.");
 }
 
 const newFunc1 = () => { // <== Anonymous function.
@@ -40,8 +40,8 @@ const newFunc3 = (name) => {
     return `My name is still ${name}.`;
 }
 
-// Functions can define other functions.  This is extremely common
-// in React functional components.
+// Functions can define other functions.  This is how functional components
+// are structured in React.
 
 const newFunc4 = (a, b) => {
    
