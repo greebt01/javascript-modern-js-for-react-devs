@@ -85,7 +85,7 @@ this appears: 3 times.
 ```
 
 ## Ex. 6
-Write an arrow function named: `longestString` that returns the longest string from an array of strings:
+Create an arrow function named: `longestString` that returns the longest string from an array of strings:
 
 Usage:
 ```
@@ -100,7 +100,7 @@ happy
 
 ## Ex. 7
 
-Write an arrow function named: `sort` that sorts an array of numbers in ascending order:
+Create an arrow function named: `sort` that sorts an array of numbers in ascending order:
 
 Example usage:
 ```
@@ -114,7 +114,7 @@ Output:
 
 ## Ex. 8
 
-Write an arrow function named: `countWords` that counts the number of words for this string:
+Create an arrow function named: `countWords` that counts the number of words for this string:
 
 ```
 let words = "Count the words in this string";
@@ -126,7 +126,7 @@ Output:
 ```
 
 ## Ex. 9
-Write am arrow function named: `countS` that counts the number of words that end in "s":
+Create an arrow function named: `countS` that counts the number of words that end in "s":
 
 Usage:
 ```
@@ -140,7 +140,7 @@ Output:
 ```
 
 ## Ex. 10
-Write an arrow function named: `countLetters` that counts the number of letters for an array of words:
+Create an arrow function named: `countLetters` that counts the number of letters for an array of words:
 
 Usage:
 ```
@@ -156,7 +156,7 @@ Output:
 Bonus points for using `map` and `reduce`.
 
 ## Ex. 11
-Write an arrow function named: `numberOnly` that counts the number of numbers in an array:
+Create an arrow function named: `numberOnly` that counts the number of numbers in an array:
 
 Usage:
 ```
@@ -170,8 +170,7 @@ Output:
 ```
 
 ## Ex. 12 History Calculator
-Create a `Calculator` class that performs simple math operations and prints the results
-of all the calculations to the console.
+Create a `Calculator` class that performs simple math operations and prints the results of all the calculations to the console.
 
 Usage:
 ```
